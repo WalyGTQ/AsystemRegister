@@ -1,10 +1,11 @@
 # A System Register
 
-![Logo](https://1drv.ms/i/s!AiyPyDqOhQ5VgtciaHU_eK2fFqgJEQ?e=wvQqlY)
 
 ## Introducción
 
 **A System Register** es una aplicación robusta diseñada para gestionar deudas y saldos pendientes asociados con la adquisición de servicios o la compra de artículos. El sistema ofrece un control exhaustivo del registro del cliente, su historial de transacciones, proyecciones futuras y la generación de datos para KPI's y gráficos.
+![img2](https://github.com/WalyGTQ/AsystemRegister/assets/52383359/2bd85024-58a1-4915-9488-bb2ed94db8a7)
+
 
 ## Características
 
