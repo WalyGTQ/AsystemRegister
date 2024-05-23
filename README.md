@@ -1,6 +1,6 @@
 # A System Register
 
-![Logo](https://1drv.ms/i/s!AiyPyDqOhQ5VgfpJv3i8UULyiLda_w?e=Gbxklq)
+![Logo](https://1drv.ms/i/s!AiyPyDqOhQ5VgtciaHU_eK2fFqgJEQ?e=wvQqlY)
 
 ## Introducción
 
