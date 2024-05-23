@@ -1,6 +1,6 @@
 # A System Register
 
-![Logo](url_del_logo)
+![Logo]([url_del_logo](https://1drv.ms/i/s!AiyPyDqOhQ5VgfpJv3i8UULyiLda_w?e=Gbxklq))
 
 ## Introducción
 
