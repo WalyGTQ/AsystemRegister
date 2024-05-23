@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.asystemregister.InicioController">
+    <stylesheets>
+        <URL value="@inicio.css" />
+    </stylesheets>
+     <children>
+      <AnchorPane prefHeight="800.0" prefWidth="1100.0" style="-fx-background-color: linear-gradient(to bottom right, #B3E5FC, #81C784); -fx-padding: 20 px;" stylesheets="@login.css">
+         <children>
+            <AnchorPane layoutX="307.0" layoutY="114.0" prefHeight="572.0" prefWidth="500.0" styleClass="login">
+               <children>
+                  <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="161.0" layoutY="352.0" prefHeight="21.0" prefWidth="180.0" text="Ingresa tu Llave Maestra" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <PasswordField layoutX="104.0" layoutY="390.0" prefHeight="25.0" prefWidth="293.0" />
+                  <Button layoutX="172.0" layoutY="454.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" text="Acceso">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView blendMode="MULTIPLY" disable="true" fitHeight="346.0" fitWidth="338.0" layoutX="82.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/asystemslogo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink layoutX="389.0" layoutY="31.0" onAction="#regresar" text="REGRESAR " textFill="#f8a473">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Hyperlink>
+               </children></AnchorPane>
+            <Separator layoutX="83.0" layoutY="728.0" prefHeight="0.0" prefWidth="948.0" />
+            <Label layoutX="325.0" layoutY="739.0" text="© 2024 A Systems. Todos los derechos reservados. Seguridad y confianza en cada paso." />
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="256.0" layoutY="39.0" prefHeight="44.0" prefWidth="588.0" text="Bienvenido a A Systems Register" textAlignment="CENTER" textFill="#f88736" textOverrun="CLIP">
+               <font>
+                  <Font name="Microsoft JhengHei UI Bold" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+    
+    
+</AnchorPane>
